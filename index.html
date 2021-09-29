@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <link rel="shortcut icon" href="./imagenes/Logo.png">
+  <title>Plantilla</title>
+  <link rel="stylesheet" href="./css/plantilla.css">
+</head>
+
+<body>
+  <div id="contenedor">
+    <header id="cabecera">
+        <h1 id="titulo">Plantilla genérica de la web </h1>
+
+      
+    </header>
+    <nav id="menu">
+      
+
+    </nav>
+    <section id="seccion">
+      <article>
+        Conversor de tipos. Decimal, binario, hexadecimal y octal.
+      </article>
+      <article>
+        <header>
+            Conversion entre sistemas de numeracion.
+        </header>
+        <p><input type="text" id="numero"></p>
+        <br>
+        <select name="opciones" id="conversion" onchange="convertir()">
+            <optgroup label="De decimal a :">
+                <option value="Decimal_binario">Binario</option>
+                <option value="Decimal_hexadecimal">Hexadecimal</option>
+                <option value="Decimal_octal">Octal</option>
+            </optgroup>
+            <optgroup label="A decimal desde:">
+                <option value="Binario_decimal">Binario</option>
+                <option value="Hexadecimal_decimal">Hexadecimal</option>
+                <option value="Octal_decimal">Octal</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        <p><input type="text" id="resultado"></p>
+      </article>
+    </section>
+    <aside id="columna">
+      <blockquote>Mensaje número uno</blockquote>
+      <blockquote>Mensaje número dos</blockquote>
+    </aside>
+    
+  </div>
+
+  <script src="js/function.js"></script>
+</body>
+
+</html>
