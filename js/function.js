@@ -6,7 +6,6 @@ function convertir(){
         case "1":{
             var number=parseInt(numero);
             resultado=number.toString(2);
-           
             break;
         }
         case "2":{
