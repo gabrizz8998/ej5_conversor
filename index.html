@@ -31,9 +31,10 @@
         <header>
             Conversion entre sistemas de numeracion.
         </header>
-        <p><input type="text" id="numero"></p>
         <br>
-        <select name="opciones" id="conversion" onchange="convertir()">
+        <p>Numero a convertir: <input type="text" id="numero"></p>
+        <br>
+        Opcion de conversion: <select name="opciones" id="conversion" onchange="convertir()">
             <optgroup label="De decimal a :">
                 <option value="1">Binario</option>
                 <option value="2">Hexadecimal</option>
@@ -47,7 +48,7 @@
         </select>
         <br>
         <br>
-        <p><input type="text" id="resultado"></p>
+        <p>Resultado: <input type="text" id="resultado"></p>
       </article>
     </section>
     <aside id="columna">
